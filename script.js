@@ -4,7 +4,7 @@ const eyeIcon = document.querySelector(".pass-field i");
 const requirementList = document.querySelectorAll(".requirement-list li");
 
 const requirements = [
-    {regex: /,{8,}/, index: 0},
+    {regex: /.{8,}/, index: 0},
     {regex: /[0-9]/, index: 1},
     {regex: /[a-z]/, index: 2},
     {regex: /[A-Z]/, index: 3},
